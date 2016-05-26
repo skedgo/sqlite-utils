@@ -1,6 +1,22 @@
 # sqlite-utils
 Collection of util classes that facilitates working with SQLiteOpenHelper
 
+Download
+-------
+**Step 1**. Add the JitPack repository to your root build file.
+```groovy
+allprojects {
+  repositories {
+    maven { url "https://jitpack.io" }
+  }
+}
+```
+**Step 2**. Add the dependency.
+```groovy
+dependencies {
+  compile 'com.github.skedgo:sqlite-utils:v1.0'
+}
+```
 License
 -------
 
